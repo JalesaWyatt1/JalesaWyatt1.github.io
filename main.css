@@ -30,27 +30,30 @@ a{
 }
 
 /* ----------------------------     BODY     --------------     ------------------ */
-.top-row{
+/* .top-row{
     width:100%;
-}
+} */
 .second-row{
     width: 100%;
 }
+.blog img{
+    border-radius:1em;
+}
 
 .top-row .first-box{
-    display:flex;
+    /* display:flex; */
     border:1px solid lightgray;
     background-color: white;
     border-radius: 1em;
     margin:1em;
 }
-.top-row .second-box{
+.second-box{
     display:flex;
     border:1px solid lightgray;
     background-color: white;
     border-radius: 1em;
     margin:1em;
-    padding:1em;
+    justify-content: center;
 }
 .second-box h2{
     padding:1em;
@@ -58,10 +61,17 @@ a{
 .first-box h3{
     padding:1em;
 }
+/* ---neither of these are making the 
+blog image bigger */
 .second-box img{
-    width:40%;
-    text-align: start;
+    width:100px;
+    height:200px;
 }
+/* .second-box a{
+    width:60%;
+} */
+
+/* ----------------------*/
 .second-row .first-box {
     background-color: white;
     margin:1em;
@@ -69,8 +79,7 @@ a{
 }
 .first-box .personal-photo{
     border-radius: 50%;
-    width:60%;
-   
+    width:60%;  
 }
 .second-row .desktop{
     width:40%;
@@ -78,7 +87,15 @@ a{
 .second-row{
     width:100%;
     display:flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+}
+.blog{
+    display:flex;
+}
+
+.second-row .first-box{
+    display:flex;
+    flex-direction: row;
 }
 .lab03{
     width:90%;
@@ -126,6 +143,50 @@ a{
 }
 
 @media (min-width: 768px) {
+    /* .second-box{
+        display:flex;
+        justify-content: space-between;
+        width:90%;
+    }   */
+    .second-box{
+        display:flex;
+        justify-content: space-between;
+        width:90%;
+        margin:3em;
+        height:296px;
+    } 
+    .second-box .blog{
+        display:flex;
+        justify-content: space-between;
+    }
+    .second-box h2{
+        /* padding-right: 10em;   */
+    }
+    .blog{
+        width:100%;
+    }
+   .blog a{
+       width:100%;
+   }
+    .blog img{
+        width:100%;
+    }
+
+    .blog, h2{
+        width:60%;
+    }
+    .second-row .first-box{
+        display:flex;
+        flex-direction: row;
+    }
+    .top-row .first-box{
+        display:flex;
+        line-height: 1.5em;
+    }
+    .my-work h2{
+        text-align: center;
+        padding-left: 5em;
+    }
     
 }
 
@@ -137,10 +198,57 @@ a{
         /* padding not working on desktop */
         padding:6em;
         border-radius: 2em;
-        
+        margin:3em;
     }
     .nav-bar .logo{
         padding-top: 3em;
     }
-        
+    .second-box{
+        display:flex;
+        justify-content: space-between;
+        width:90%;
+        margin:3em;
+        height:296px;
+    }  
+    .second-box .blog{
+        display:flex;
+        justify-content: space-between;
+    }
+    .second-box, .blog{
+        /* width: 80%; */
+        padding:0em;
+    }
+    .top-row .first-box{
+        display:flex;
+        line-height: 1.5em;
+        padding:1em;
+    }
+    .blog img{
+        width:40%;
+    }
+    .blog, h2{
+        width:60%;
+    }
+    .second-box h2{
+        /* padding-right: 15em;   */
+    }
+    .second-row .first-box{
+        display:flex;
+        flex-direction: row;
+        width:90%;
+        margin:3em;
+    }
+    .my-work h2{
+        text-align: center;
+        padding-left: 12em;
+    }
+    .blog{
+        width:100%;
+    }
+   .blog a{
+       width:80%;
+   }
+    .blog img{
+        width:80%;
+    }
 }
