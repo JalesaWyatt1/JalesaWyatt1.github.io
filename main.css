@@ -1,0 +1,146 @@
+html{
+    background-color: #f2f2f2;
+}
+/* --------------------------   NAV BAR     -------------------------- */
+.nav-bar{
+    display:flex;
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    width:100%;
+    background-color:white;
+}
+.nav-bar img{
+    width:10%;
+    border-radius: 1em;
+    
+    /* height:3em; */
+}
+.nav-bar .logo{
+    width:40%;
+    padding-top: 18px;
+}
+.nav-bar .links{
+    display:flex;
+    justify-content: space-around; 
+    width:50%;   
+    
+}
+a{
+    color: rgb(90, 39, 39);
+}
+
+/* ----------------------------     BODY     --------------     ------------------ */
+.top-row{
+    width:100%;
+}
+.second-row{
+    width: 100%;
+}
+
+.top-row .first-box{
+    display:flex;
+    border:1px solid lightgray;
+    background-color: white;
+    border-radius: 1em;
+    margin:1em;
+}
+.top-row .second-box{
+    display:flex;
+    border:1px solid lightgray;
+    background-color: white;
+    border-radius: 1em;
+    margin:1em;
+    padding:1em;
+}
+.second-box h2{
+    padding:1em;
+}
+.first-box h3{
+    padding:1em;
+}
+.second-box img{
+    width:40%;
+    text-align: start;
+}
+.second-row .first-box {
+    background-color: white;
+    margin:1em;
+    /* padding:1em; */
+}
+.first-box .personal-photo{
+    border-radius: 50%;
+    width:60%;
+   
+}
+.second-row .desktop{
+    width:40%;
+}
+.second-row{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+.lab03{
+    width:90%;
+    margin:1em;
+    border-radius: 1em;
+}
+.lab04{
+    width:90%;
+    margin:1em;
+    border-radius: 1em;
+}
+.basketball-courts{
+    width:90%;
+    margin:1em;
+    border-radius: 1em;
+}
+.my-work h2{
+    text-align: center;
+}
+#main{
+    position: relative;
+}
+/* --------------------------------   FOOTER     ----------------------------- */
+#footer{
+    /*  want to make footer shorter */
+    background-color:darkgrey;
+    color:white;
+    width:100%;
+    position: absolute;
+}
+#footer a{
+    color: rgb(90, 39, 39);
+}
+.bottom-footer{
+    background-color: grey;
+    position: absolute;
+    width:100%;
+    text-align: center;
+}
+#contact-information{
+    padding-top:1em;
+}
+#main{
+    width:100%;
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1024px) {
+    .projects{
+        display:flex;
+    }
+    .top-row .first-box{
+        /* padding not working on desktop */
+        padding:6em;
+        border-radius: 2em;
+        
+    }
+    .nav-bar .logo{
+        padding-top: 3em;
+    }
+        
+}
