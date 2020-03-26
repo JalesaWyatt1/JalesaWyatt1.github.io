@@ -10,8 +10,9 @@ html{
     background-color:white;
 }
 .nav-bar img{
-    width:10%;
+    width:60px;
     border-radius: 1em;
+   
     
     /* height:3em; */
 }
@@ -70,6 +71,10 @@ blog image bigger */
 /* .second-box a{
     width:60%;
 } */
+#footer img{
+    width: 30px;
+    height:30px;
+}
 
 /* ----------------------*/
 .second-row .first-box {
@@ -126,6 +131,7 @@ blog image bigger */
     width:100%;
     position: absolute;
 }
+
 #footer a{
     color: rgb(90, 39, 39);
 }
