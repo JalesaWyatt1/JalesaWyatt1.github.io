@@ -43,6 +43,7 @@ a{
     border-radius:1em;
     width: 114.4;
     height:139.38;
+    display: block;
 }
 
 .top-row .first-box{
