@@ -41,8 +41,7 @@ a{
 }
 .blog img{
     display: block;
-    border-radius:1em;
-    width: 114.4em;  
+    border-radius:1em;  
 }
 
 .top-row .first-box{
@@ -103,8 +102,9 @@ blog image bigger */
 }
 
 .second-row .first-box{
-    /* display:flex; */
+    display:flex;
     flex-direction: row;
+    width: 114.4em;
 }
 .lab03{
     width:90%;
