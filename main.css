@@ -104,6 +104,8 @@ blog image bigger */
 .second-row .first-box{
     display:flex;
     flex-direction: row;
+}
+.second-row .first-box img{
     width: 136.4em;
 }
 .lab03{
