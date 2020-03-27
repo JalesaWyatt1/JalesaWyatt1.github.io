@@ -40,10 +40,11 @@ a{
     width: 100%;
 }
 .blog img{
-    border-radius:1em;
-    width: 114.4;
-    height:139.38;
     display: block;
+    border-radius:1em;
+    width: 114.4em;
+    height:139.38em;
+    
 }
 
 .top-row .first-box{
