@@ -103,7 +103,7 @@ blog image bigger */
 }
 
 .second-row .first-box{
-    display:flex;
+    /* display:flex; */
     flex-direction: row;
 }
 .lab03{
