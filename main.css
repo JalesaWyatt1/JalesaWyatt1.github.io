@@ -101,7 +101,7 @@ blog image bigger */
     display:flex;
 }
 
-.second-row .first-box{
+.second-row {
     display:flex;
     width:100%;
 }
@@ -109,9 +109,9 @@ blog image bigger */
     width:136.4px;
     
 }
-.second-row .first-box h3{
+/* .second-row .first-box h3{
     width:70%;
-}
+} */
 
 .lab03{
     width:90%;
