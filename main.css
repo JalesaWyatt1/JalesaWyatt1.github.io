@@ -103,7 +103,7 @@ blog image bigger */
 
 .second-row .first-box{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     width:100%;
 }
 .second-row .first-box img{
