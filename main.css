@@ -103,13 +103,16 @@ blog image bigger */
 
 .second-row .first-box{
     display:flex;
-    flex-direction: column;
     width:100%;
 }
 .second-row .first-box img{
-    /* width: 136.4em; */
+    width: 136.4em;
+    /* width:50%; */
+}
+.second-row .first-box h3{
     width:50%;
 }
+
 .lab03{
     width:90%;
     margin:1em;
