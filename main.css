@@ -45,7 +45,7 @@ a{
 }
 
 .top-row .first-box{
-    /* display:flex; */
+    display:flex;
     border:1px solid lightgray;
     background-color: white;
     border-radius: 1em;
@@ -101,17 +101,22 @@ blog image bigger */
     display:flex;
 }
 
-.second-row {
+/* ----------picture of (desktop and iphone)stretched
+out on my iphone but works fine in the browser from
+desktop */
+.second-row .first-box {
     display:flex;
+    flex-direction: row;
     width:100%;
 }
 .second-row .first-box img{
-    width:136.4px;
-    
+    width:136.4px;  
+    display: block;
 }
-/* .second-row .first-box h3{
+.second-row .first-box h3{
     width:70%;
-} */
+}
+/* -----------------ends here------------------------ */
 
 .lab03{
     width:90%;
